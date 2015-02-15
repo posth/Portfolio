@@ -1,3 +1,46 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/dark_geometric.png");
+    background-repeat: repeat;
+    color: white;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 2em;
+	text-align: left;
+}
+
+input, select, textarea{
+    color: #5A8F29;
+    font-weight: bold;
+}
+
+textarea:focus, input:focus {
+    color: #3C7DC4;
+}
+
+label {
+	display: inline-block;
+	max-width: 100%;
+	margin-bottom: 5px;
+	font-weight: bold;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+	color: #FFCC00;
+}
+
+a:hover {
+	color: #3b7cc3;
+}
 
 .InputBox{
 	padding:10px; 
@@ -5,7 +48,16 @@
 	border-radius:4px;
 }
 
-.error{background-color: #FF6600;border:#AA4502 1px solid;padding: 5px 10px;color: #FFFFFF;border-radius:4px;}
+.error{
+	background-color: #FF6600;
+	border:#AA4502 1px solid;
+	padding: 5px 10px;
+	color: #FFFFFF;
+	border-radius:4px;
+	width: 16em;
+	text-align: center;
+	margin-left: 21.59em;
+}
 
 .success{
 	background-color: #5A8F29;
@@ -24,19 +76,9 @@
 	padding-left:5px;
 }
 
-
 #mail-status {
 	height: 40px;
 	text-align: center;
-}
-
-input, select, textarea{
-    color: #5A8F29;
-    font-weight: bold;
-}
-
-textarea:focus, input:focus {
-    color: #3C7DC4;
 }
 
 #page {
@@ -60,13 +102,6 @@ textarea:focus, input:focus {
     background-image: url("../img/hex-loader.gif");
     background-repeat: no-repeat;
     background-position: center;
-}
-
-a {
-	color: #FFCC00;
-}
-a:hover {
-	color: #3b7cc3;
 }
 
 #header-name {
@@ -109,13 +144,7 @@ a:hover {
 	margin-top: 1.5em;
 }
 
-label {
-	display: inline-block;
-	max-width: 100%;
-	margin-bottom: 5px;
-	font-weight: bold;
-	font-family: 'Titillium Web', sans-serif;
-}
+
 
 #portfolio-button {
 	font-family: 'Titillium Web', sans-serif;
@@ -160,12 +189,12 @@ label {
 
 ::-moz-selection { /* Code for Firefox */
     color: black;
-    background: 	#FFCC00;
+    background: #FFCC00;
 }
 
 ::selection {
     color: black; 
-    background: 	#FFCC00;
+    background: #FFCC00;
 }
 
 #button-intro {
@@ -202,33 +231,24 @@ label {
 }
 
 .form-group {
-margin-bottom: 2em;
+	margin-bottom: 2em;
 }
 
 .navbar-nav {
 	float: right;
 	margin: 0;
-
 	display: block;
-outline: none;
-color: black;
-text-decoration: none;
-/* text-transform: uppercase; */
-/* letter-spacing: 1px; */
-font-size: 1.1em;
-/*font-family: 'Droid Serif';*/
-/*font-family: 'Titillium Web', sans-serif;*/
-font-family: 'Orbitron', sans-serif;
-font-weight: 800;
--webkit-transition: color 0.2s;
-transition: color 0.2s;
+	outline: none;
+	color: black;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 800;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
 }
 
-p {
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 2em;
-	text-align: left;
-}
+
 
 #portfolio-p-content {
 	font-family: 'Titillium Web', sans-serif;
@@ -306,7 +326,6 @@ p {
     width: 250px;
     height: 150px;
     margin-left: -50px;
-/*    margin-top: -50px;*/
 	z-index: -999999;
     
     animation: ringoneAni 1.3s linear 0s infinite normal none;
@@ -317,8 +336,7 @@ p {
     width: 280px;
     height: 280px;
     margin-left: -90px;
-    	z-index: -999999;
-/*    margin-top: -90px;*/
+    z-index: -999999;
     
     animation: ringtwoAni 2.0s linear 0s infinite reverse none;
 	-webkit-animation: ringtwoAni 2.0s linear 0s infinite reverse none;
@@ -328,8 +346,7 @@ p {
     width: 360px;
     height: 360px;
     margin-left: -180px;
-    	z-index: -999999;
-/*    margin-top: -180px;*/
+    z-index: -999999;
     
     animation: ringthreeAni 2.6s linear 0s infinite normal none;
 	-webkit-animation: ringthreeAni 2.6s linear 0s infinite normal none;
@@ -344,6 +361,7 @@ p {
     border-radius: 20px;
     top: 50%;
     background-color: #5A8F29;
+
     animation: electronscale 0.2s ease-in-out 0s infinite alternate none;
 	-webkit-animation: electronscale 0.2s ease-in-out 0s infinite alternate none;
 }
@@ -355,8 +373,8 @@ p {
     margin-top: -107px;
     margin-left: 200px;
     border-radius: 20px;
-/*    top: 50%;*/
     background-color: #FF8F00;
+
     animation: electronscale 0.2s ease-in-out 0s infinite alternate none;
 	-webkit-animation: electronscale 0.2s ease-in-out 0s infinite alternate none;
 }
@@ -370,12 +388,14 @@ p {
     border-radius: 20px;
     top: 50%;
     background-color: #3C7DC4;
+
     animation: electronscale 0.2s ease-in-out 0s infinite alternate none;
 	-webkit-animation: electronscale 0.2s ease-in-out 0s infinite alternate none;
 }
 
 .ring.two .electron:nth-of-type(2){
     margin-left: 170px;
+
     animation: electronscale 0.15s ease-in-out 0s infinite alternate none;
 	-webkit-animation: electronscale 0.15s ease-in-out 0s infinite alternate none;
 }
@@ -391,7 +411,8 @@ p {
 .ring.three .electron:nth-of-type(3){
     margin-left: 277px;
     margin-top: 135px;
-        animation: electronscale 0.45s ease-in-out 0s infinite alternate none;
+
+    animation: electronscale 0.45s ease-in-out 0s infinite alternate none;
 	-webkit-animation: electronscale 0.45s ease-in-out 0s infinite alternate none;
 }
 
@@ -448,6 +469,32 @@ p {
 }
   
 @media screen and (max-width: 32em) {
+
+.services-section {
+    height: 101%;
+    padding-top: 40px;
+    text-align: center;
+    overflow: hidden;
+    background-image: url("../img/grey.png");
+    background-repeat: repeat;
+    color: black;
+    margin-right:-5%;
+    margin-bottom: 1%;
+}
+
+.contact-section {
+    height: 135%;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    }
+
+.about-section {
+    height: 100%;
+    padding-top: 53%;
+    text-align: center;
+    color: white;
+}
 
 #portfolio-p-content {
 	font-family: 'Titillium Web', sans-serif;
@@ -711,6 +758,19 @@ p {
 	margin-left: 2.59em;
 }
 
+.error{
+	background-color: #FF6600;
+	border:#AA4502 1px solid;
+	padding: 5px 10px;
+	color: #FFFFFF;
+	border-radius: 4px;
+	width: 16em;
+	text-align: center;
+	margin-left: 2.59em;
+}
+
+
+
 }
 
 @media (orientation:landscape) and (max-width: 630px){
@@ -912,13 +972,23 @@ p {
 	margin-left: 11.59em;
 }
 
+.error{
+	background-color: #FF6600;
+	border:#AA4502 1px solid;
+	padding: 5px 10px;
+	color: #FFFFFF;
+	border-radius:4px;
+	width: 16em;
+	text-align: center;
+	margin-left: 11.59em;
+}
+
 
 }
 
 @media (min-width: 767px) {
 
 .tiltview {
-/*			visibility: visible;*/
 	position: absolute;
 	left: 53%;
 	width: 39%;
@@ -942,7 +1012,6 @@ p {
 }
 
 #rotating-text {
-
 	font-size: 2.5em;
 	font-family: 'Titillium Web', sans-serif;
 }
@@ -1109,8 +1178,52 @@ p {
 
 @media (min-width: 767px) {
 
+	.navbar {
+        padding: 8px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+        border-style: outset;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.about-section {
+    height: 78%;
+    padding-top: 50%;
+    text-align: center;
+    color: white;
+}
+
+.services-section {
+    height: 100%;
+    padding-top: 90px;
+    text-align: center;
+    overflow: hidden;
+    background-image: url("../img/grey.png");
+    background-repeat: repeat;
+    color: black;
+    margin-right:-1%;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    margin-bottom: 1%;
+    color: white;
+}
+
 	.tiltview {
-/*		visibility: visible;*/
 	position: absolute;
 	left: 54%;
 	width: 32%;
@@ -1163,7 +1276,6 @@ p {
 	float: left;
 	width: 100%;
 	padding-right: 0px;
-/*	padding-bottom: 9%;*/
 }
 
 .about-section {
@@ -1174,6 +1286,19 @@ p {
 	margin-bottom: 10%;
 }
 }
+
+@media (min-width: 962px) {
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    margin-bottom: 11%;
+    color: white;
+}
+    
+}
+
 
 
 

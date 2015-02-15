@@ -1,3 +1,12 @@
+/*
+
+Credit goes to Tympanus - CoDrops article
+
+Reference: http://tympanus.net/codrops/2012/04/17/rotating-words-with-css-animations/
+
+*/
+
+
 body{
 	background: #fff url(../images/lghtmesh.png) repeat center center;
 }
@@ -25,9 +34,6 @@ body{
 .rw-words-1 span{
 	position: absolute;
 	opacity: 0;
-/*	overflow: hidden;*/
-/*	color: #6b969d;*/
-/*	top: 46px;*/
 	-webkit-animation: rotateWord 18s linear infinite 0s;
 	-ms-animation: rotateWord 18s linear infinite 0s;
 	animation: rotateWord 18s linear infinite 0s;
@@ -36,31 +42,26 @@ body{
     -webkit-animation-delay: 3s; 
 	-ms-animation-delay: 3s; 
 	animation-delay: 3s; 
-/*	color: #6b889d;*/
 }
 .rw-words-1 span:nth-child(3) { 
     -webkit-animation-delay: 6s; 
 	-ms-animation-delay: 6s; 
 	animation-delay: 6s; 
-/*	color: #6b739d;	*/
 }
 .rw-words-1 span:nth-child(4) { 
     -webkit-animation-delay: 9s; 
 	-ms-animation-delay: 9s; 
 	animation-delay: 9s; 
-/*	color: #7a6b9d;*/
 }
 .rw-words-1 span:nth-child(5) { 
     -webkit-animation-delay: 12s; 
 	-ms-animation-delay: 12s; 
 	animation-delay: 12s; 
-/*	color: #8d6b9d;*/
 }
 .rw-words-1 span:nth-child(6) { 
     -webkit-animation-delay: 15s; 
 	-ms-animation-delay: 15s; 
 	animation-delay: 15s; 
-/*	color: #9b6b9d;*/
 }
 @-webkit-keyframes rotateWord {
     0% { opacity: 0; }
@@ -92,10 +93,6 @@ body{
 
 @media screen and (max-width: 768px){
 	.rw-sentence { font-size: 18px; }
-
-@media (max-width: 768px) {
-
-}
 
 }
 @media screen and (max-width: 320px){

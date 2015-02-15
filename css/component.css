@@ -1,3 +1,12 @@
+/*
+
+Credit goes to Tympanus - CoDrops article
+
+Reference: http://tympanus.net/codrops/2013/06/13/creative-button-styles/
+
+*/
+
+
 @font-face {
 	font-family: 'icomoon';
 	src:url('../fonts/icomoon/icomoon.eot');
@@ -797,7 +806,14 @@
 	top: 20px;
 }
 
-/* Some media queries */
+/* 
+
+Media queries 
+
+Turning the slider off for mobile devices.
+
+*/
+
 @media screen and (max-width: 65.3125em) {
 .description,
 	.tiltview {

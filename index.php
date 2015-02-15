@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <!-- Dear developer,
@@ -54,17 +55,13 @@
     <!-- Rotating Text  -->
     <link rel="stylesheet" type="text/css" href="../css/rotatingtext.css" />
 
-    <!-- Scrolling CSS -->
-    <link href="../css/scrolling-nav.css" rel="stylesheet">
-
     <!-- Used for spinning HR after my name -->
     <link rel="stylesheet" type="text/css" href="../css/animate.css" />
 
     <!-- Personal CSS -->
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
 
-    <!-- Animated Background -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -400,9 +397,6 @@
 <p id="copyright-p">Copyright Posth Office 2015</p>
 
     </section>
-
-    <!-- jQuery -->
-    <script src="../js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="../js/bootstrap.min.js"></script>
