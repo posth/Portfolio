@@ -21,30 +21,30 @@
     <title>Marc Posth</title>
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="../img/favicons/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="../img/favicons/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="../img/favicons/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="../img/favicons/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="../img/favicons/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="../img/favicons/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicons/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="../img/favicons/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicons/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="../img/favicons/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="../img/favicons/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="../img/favicons/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="../img/favicons/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="../img/favicons/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="img/favicons/manifest.json">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
     <!-- Bootstrap Core CSS -->
-    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Portfolio CSS -->
-    <link rel="stylesheet" type="text/css" href="../css/component.css" />
-    <script src="../js/modernizr.custom.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
 
     <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
@@ -53,13 +53,13 @@
     <link href='http://fonts.googleapis.com/css?family=Orbitron:400,700' rel='stylesheet' type='text/css'>
 
     <!-- Rotating Text  -->
-    <link rel="stylesheet" type="text/css" href="../css/rotatingtext.css" />
+    <link rel="stylesheet" type="text/css" href="css/rotatingtext.css" />
 
     <!-- Used for spinning HR after my name -->
-    <link rel="stylesheet" type="text/css" href="../css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
 
     <!-- Personal CSS -->
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
@@ -86,7 +86,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top" id="logo" title="Home"><img src="../img/home-logo.png" id="gradient"></img></a>
+                <a class="navbar-brand page-scroll" href="#page-top" id="logo" title="Home"><img src="img/home-logo.png" id="gradient"></img></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -189,7 +189,7 @@
             <div class="row" id="skills-row">
 
                 <div class="col-md-4" >
-                    <img id="skills-logo" src="../img/design-logo.png"></img>
+                    <img id="skills-logo" src="img/design-logo.png"></img>
                     <p id="skills-p">Photoshop CS6</br>
                          Web Design</br>
                         Branding/Logo </br>
@@ -198,7 +198,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <img id="skills-logo" src="../img/dev-logo.png"></img>
+                    <img id="skills-logo" src="img/dev-logo.png"></img>
                     <p id="skills-p">HTML5/CSS3 </br>
                         Bootstrap </br>
                         Wordpress</br>
@@ -209,7 +209,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <img id="skills-logo" src="../img/pm-logo.png"></img>
+                    <img id="skills-logo" src="img/pm-logo.png"></img>
                     <p id="skills-p">Project Management </br>
                         E-Mail Marketing </br>
                         Google Analytics </br>
@@ -228,24 +228,25 @@
                 <ol class="slides">
                     <li class="current">
                         <div class="description">
-                            <img id="chemex-portfolio-logos" src="../img/portfolio/chemex/chemex_logo.png"></img>
-                            <p id="portfolio-p-content">HTML5/CSS3/Boostrap <br>JQuery <br>Work In Progress</p>
+                            <img id="chemex-portfolio-logos" src="img/portfolio/chemex/chemex_logo.png"></img>
+                            <p id="portfolio-p-content">HTML5/CSS3/Bootstrap <br>JQuery <br>Work In Progress</p>
                             <a href="http://posthoffice.com/chemex"><button id="portfolio-button" class="btn btn-1 btn-1a">View Site</button></a>
                         </div>
                         <div class="tiltview col">
-                            <a href=""><img id="chemex-iphone-screen" src="../img/portfolio/chemex/chemex_screen_iphone5.png"/></a>
-                            <a href=""><img id="chemex-mac-screen" src="../img/portfolio/chemex/chemex_screen_mac.png"/></a>
+                            <a href="#services"><img id="chemex-iphone-screen" src="img/portfolio/chemex/chemex_screen_iphone5.png"/></a>
+                            <a href="#services"><img id="chemex-mac-screen" src="img/portfolio/chemex/chemex_screen_mac.png"/>
+                            </a>
                         </div>
                     </li>
                     <li>
                         <div class="description">
-                            <img id="vsmc-portfolio-logos" src="../img/portfolio/victoriasquare/vsmc_logo.png"></img>
+                            <img id="vsmc-portfolio-logos" src="img/portfolio/victoriasquare/vsmc_logo.png"></img>
                             <p id="portfolio-p-content">HTML5/CSS3 <br>Jquery</p>
                             <a href="http://victoriasquaremedicalcenter.com/"><button id="portfolio-button" class="btn btn-1 btn-1a">View Site</button></a>
                         </div>
                         <div class="tiltview col">
-                            <a href=""><img src="../img/portfolio/victoriasquare/vsmc_screen_ipad_iphone.png"/></a>
-                            <a href=""><img src="../img/portfolio/victoriasquare/vsmc_screen_mac.png"/></a>
+                            <a href="#services"><img id="vsmc-iphone-screen" src="img/portfolio/victoriasquare/vsmc_screen_ipad_iphone.png"/></a>
+                            <a href="#services"><img id="vsmc-mac-screen" src="img/portfolio/victoriasquare/vsmc_screen_mac.png"/></a>
                         </div>
                     </li>
 <!--                     <li>
@@ -255,8 +256,8 @@
                             <button id="portfolio-button" class="btn btn-1 btn-1a">View Site</button>
                         </div>
                         <div class="tiltview col">
-                            <a href=""><img src="../img/3_screen.jpg"/></a>
-                            <a href=""><img src="../img/4_screen.jpg"/></a>
+                            <a href=""><img src="img/3_screen.jpg"/></a>
+                            <a href=""><img src="img/4_screen.jpg"/></a>
                         </div>
                     </li>
 
@@ -267,8 +268,8 @@
                             <button id="portfolio-button" class="btn btn-1 btn-1a">View Site</button>
                         </div>
                         <div class="tiltview col">
-                            <a href=""><img src="../img/5_screen.jpg"/></a>
-                            <a href=""><img src="../img/6_screen.jpg"/></a>
+                            <a href=""><img src="img/5_screen.jpg"/></a>
+                            <a href=""><img src="img/6_screen.jpg"/></a>
                         </div>
                     </li> -->
                 </ol>
@@ -303,7 +304,7 @@
 
             if(valid) {
                 jQuery.ajax({
-                url: "../mail/contact_me.php",
+                url: "mail/contact_me.php",
                 data:'userName='+$("#userName").val()+'&userEmail='+$("#userEmail").val()+'&subject='+$("#subject").val()+'&content='+$(content).val(),
                 type: "POST",
                 success:function(data){
@@ -399,15 +400,15 @@
     </section>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Scrolling Nav JavaScript -->
-    <script src="../js/jquery.easing.min.js"></script>
-    <script src="../js/scrolling-nav.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
 
     <!-- Titled Content JavaScript -->
-    <script src="../js/classie.js"></script>
-    <script src="../js/tiltSlider.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/tiltSlider.js"></script>
     <script>
         new TiltSlider( document.getElementById( 'slideshow' ) );
     </script>

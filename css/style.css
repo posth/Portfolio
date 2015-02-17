@@ -159,8 +159,8 @@ a:hover {
 }
 
 #skills-logo {
-	width: 20em;
-	height: 20em;
+	width: 16em;
+	height: 16em;
 }
 
 
@@ -180,12 +180,27 @@ a:hover {
 #chemex-portfolio-logos {
 	width: 14em;
 	height: 5em;
+	margin-left: 1.1em;
 }
 
 #chemex-iphone-screen {
-	width: 36em;
+	max-width: 100%;
+	z-index: -1000;
+
 }
 
+#chemex-mac-screen {
+	max-width: 130%;
+	z-index: -1000;
+}
+
+#vsmc-iphone-screen {
+	max-width: 93%;
+}
+
+#vsmc-mac-screen {
+	max-width:130%;
+}
 
 
 #vsmc-portfolio-logos {
@@ -307,6 +322,8 @@ a:hover {
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 1em;
 	text-align: center;
+	margin-top:2em;
+	margin-bottom:2em;
 }
 
 .description h2 {
@@ -866,16 +883,18 @@ p {
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 1.1em;
 	font-weight: bold;
+	margin-top: 0.5em;
 }
 
 #chemex-portfolio-logos {
 	width: 10em;
-	height: 8em;
+	height: 4em;
 }
 
 #vsmc-portfolio-logos {
-	width: 10em;
-	height: 8em;
+	width: 6em;
+	height: 7em;
+	margin-top: -2em;
 }
 
 
@@ -959,18 +978,19 @@ p {
 }
 
 .slideshow > nav {
-	margin-right: 0;
-	margin-top: 9em;
+	margin-right: 7em;
+	margin-top: 10em;
 }
 
 #portfolio-button {
 	font-family: 'Titillium Web', sans-serif;
-	color: #777;
+/*	color: #777;*/
 	border: 2px solid #777;
-	padding: 12px 32px 18px 32px;
-	text-transform: none;
-	top: 0em;
-	font-size: 1.4em;
+/*	padding: 12px 32px 18px 32px;*/
+/*	text-transform: none;
+	top: 0em;*/
+/*	font-size: 1.4em;*/
+	bottom: 1em;
 }
 
 .services-section {
@@ -1299,11 +1319,11 @@ p {
     color: white;
 }
 
-	.tiltview {
+.tiltview {
 	position: absolute;
-	left: 54%;
-	width: 32%;
-	top: 66%;
+	left: 45%;
+	width: 25%;
+	top: 73%;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 	-webkit-transform: translateY(-51%) rotateX(58deg) rotateZ(32deg);

@@ -283,9 +283,10 @@ Reference: http://tympanus.net/codrops/2013/06/13/creative-button-styles/
 
 .tiltview a,
 .tiltview a img {
-	max-width: 100%;
+/*	max-width: 100%;*/
 	display: block;
 	margin: 0 auto;
+	cursor: default;
 }
 
 .tiltview a:first-child {
@@ -332,6 +333,7 @@ Reference: http://tympanus.net/codrops/2013/06/13/creative-button-styles/
 /***********************/
 /* Move up */
 /***********************/
+
 .hide[data-effect-out="moveUpOut"] .tiltview a {
 	-webkit-animation: moveUpOut 1.5s both;
 	animation: moveUpOut 1.5s both;
@@ -345,10 +347,10 @@ Reference: http://tympanus.net/codrops/2013/06/13/creative-button-styles/
 @-webkit-keyframes moveUpOut {
 	25% {
 		-webkit-animation-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
-		-webkit-transform: translateZ(-30px);
+		-webkit-transform: translateY(30px);
 	}
 	100% {
-		-webkit-transform: translateZ(3000px);
+		-webkit-transform: translateY(-3000px);
 	}
 }
 
@@ -356,12 +358,12 @@ Reference: http://tympanus.net/codrops/2013/06/13/creative-button-styles/
 	25% {
 		-webkit-animation-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
 		animation-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
-		-webkit-transform: translateZ(-30px);
-		transform: translateZ(-30px);
+		-webkit-transform: translateY(30px);
+		transform: translateY(30px);
 	}
 	100% {
-		-webkit-transform: translateZ(3000px);
-		transform: translateZ(3000px);
+		-webkit-transform: translateY(-3000px);
+		transform: translateY(-3000px);
 	}
 }
 
@@ -378,13 +380,13 @@ Reference: http://tympanus.net/codrops/2013/06/13/creative-button-styles/
 @-webkit-keyframes moveUpIn {
 	0% {
 		-webkit-animation-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
-		-webkit-transform: translateZ(-3000px);
+		-webkit-transform: translateY(3000px);
 	}
 	75% {
-		-webkit-transform: translateZ(30px);
+		-webkit-transform: translateY(-30px);
 	}
 	100% {
-		-webkit-transform: translateZ(0);
+		-webkit-transform: translateY(0);
 	}
 }
 
@@ -392,28 +394,30 @@ Reference: http://tympanus.net/codrops/2013/06/13/creative-button-styles/
 	0% {
 		-webkit-animation-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
 		animation-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
-		-webkit-transform: translateZ(-3000px);
-		transform: translateZ(-3000px);
+		-webkit-transform: translateY(3000px);
+		transform: translateY(3000px);
 	}
 	75% {
-		-webkit-transform: translateZ(30px);
-		transform: translateZ(30px);
+		-webkit-transform: translateY(-30px);
+		transform: translateY(-30px);
 	}
 	100% {
-		-webkit-transform: translateZ(0);
-		transform: translateZ(0);
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
 	}
-}
+}     
 
 /***********************/
 /* Move down */
 /***********************/
+
 .hide[data-effect-out="moveDownOut"] .tiltview a {
 	-webkit-animation: moveDownOut 1.5s both;
 	animation: moveDownOut 1.5s both;
 }
 
-.hide[data-effect-out="moveDownOut"] .tiltview a:nth-child(2) {
+.hide[data-effect-out="moveDownOut"] .tiltview.row a:nth-child(2),
+.hide[data-effect-out="moveDownOut"] .tiltview.col a:first-child {
 	-webkit-animation-delay: 0.25s;
 	animation-delay: 0.25s;
 }
@@ -421,10 +425,10 @@ Reference: http://tympanus.net/codrops/2013/06/13/creative-button-styles/
 @-webkit-keyframes moveDownOut {
 	25% {
 		-webkit-animation-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
-		-webkit-transform: translateZ(30px);
+		-webkit-transform: translateY(-30px);
 	}
 	100% {
-		-webkit-transform: translateZ(-3000px);
+		-webkit-transform: translateY(3000px);
 	}
 }
 
@@ -432,12 +436,12 @@ Reference: http://tympanus.net/codrops/2013/06/13/creative-button-styles/
 	25% {
 		-webkit-animation-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
 		animation-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
-		-webkit-transform: translateZ(30px);
-		transform: translateZ(30px);
+		-webkit-transform: translateY(-30px);
+		transform: translateY(-30px);
 	}
 	100% {
-		-webkit-transform: translateZ(-3000px);
-		transform: translateZ(-3000px);
+		-webkit-transform: translateY(3000px);
+		transform: translateY(3000px);
 	}
 }
 
@@ -446,7 +450,8 @@ Reference: http://tympanus.net/codrops/2013/06/13/creative-button-styles/
 	animation: moveDownIn 1.5s 0.5s both;
 }
 
-.show[data-effect-in="moveDownIn"] .tiltview a:nth-child(2) {
+.show[data-effect-in="moveDownIn"] .tiltview.row a:nth-child(2),
+.show[data-effect-in="moveDownIn"] .tiltview.col a:first-child {
 	-webkit-animation-delay: 0.75s;
 	animation-delay: 0.75s;
 }
@@ -454,13 +459,13 @@ Reference: http://tympanus.net/codrops/2013/06/13/creative-button-styles/
 @-webkit-keyframes moveDownIn {
 	0% {
 		-webkit-animation-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
-		-webkit-transform: translateZ(3000px);
+		-webkit-transform: translateY(-3000px);
 	}
 	75% {
-		-webkit-transform: translateZ(-30px);
+		-webkit-transform: translateY(30px);
 	}
 	100% {
-		-webkit-transform: translateZ(0);
+		-webkit-transform: translateY(0);
 	}
 }
 
@@ -468,16 +473,16 @@ Reference: http://tympanus.net/codrops/2013/06/13/creative-button-styles/
 	0% {
 		-webkit-animation-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
 		animation-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000);
-		-webkit-transform: translateZ(3000px);
-		transform: translateZ(3000px);
+		-webkit-transform: translateY(-3000px);
+		transform: translateY(-3000px);
 	}
 	75% {
-		-webkit-transform: translateZ(-30px);
-		transform: translateZ(-30px);
+		-webkit-transform: translateY(30px);
+		transform: translateY(30px);
 	}
 	100% {
-		-webkit-transform: translateZ(0);
-		transform: translateZ(0);
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
 	}
 }
 
