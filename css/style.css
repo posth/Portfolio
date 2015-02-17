@@ -76,6 +76,39 @@ a:hover {
 	padding-left:5px;
 }
 
+.intro-section {
+	height: 100%;
+	padding-top: 150px;
+	text-align: center;
+}
+
+.about-section {
+	height: 100%;
+	padding-top: 150px;
+	text-align: center;
+	color: white;
+	margin-bottom: 10%;
+}
+
+.services-section {
+	height: 100%;
+	padding-top: 90px;
+	text-align: center;
+	overflow: hidden;
+	background-image: url("../img/grey.png");
+	background-repeat: repeat;
+	color: black;
+	margin-right: -1%;
+}
+
+.contact-section {
+	height: 100%;
+	padding-top: 150px;
+	text-align: center;
+	margin-bottom: 1%;
+	color: white;
+}
+
 #mail-status {
 	height: 40px;
 	text-align: center;
@@ -144,7 +177,27 @@ a:hover {
 	margin-top: 1.5em;
 }
 
+#chemex-portfolio-logos {
+	width: 14em;
+	height: 5em;
+}
 
+#chemex-iphone-screen {
+	width: 36em;
+}
+
+
+
+#vsmc-portfolio-logos {
+	width: 8em;
+	height: 9em;
+	padding-bottom: 1em;
+}
+
+#vsmc-portfolio-logos {
+	width:;
+	height:;
+}
 
 #portfolio-button {
 	font-family: 'Titillium Web', sans-serif;
@@ -507,6 +560,17 @@ a:hover {
 	height: 14em;
 }
 
+#chemex-portfolio-logos {
+	width: 10em;
+	height: 4em;
+}
+
+#vsmc-portfolio-logos {
+	width: 7em;
+	height: 8em;
+}
+
+
 #portfolio-button {
 	font-family: 'Titillium Web', sans-serif;
 	color: #777;
@@ -803,6 +867,17 @@ p {
 	font-size: 1.1em;
 	font-weight: bold;
 }
+
+#chemex-portfolio-logos {
+	width: 10em;
+	height: 8em;
+}
+
+#vsmc-portfolio-logos {
+	width: 10em;
+	height: 8em;
+}
+
 
 #header-name {
 	font-size: 2.1em;
@@ -1173,8 +1248,9 @@ p {
 	transform: translateY(-46%) rotateX(0deg) rotateZ(0deg);
 }
 
-
 }
+
+
 
 @media (min-width: 767px) {
 
